@@ -88,7 +88,7 @@
 <!--Form bar and buttons-->
 
 <div class="container-sm">
-	<input autofocus="" class="form-control" style="text-align: center;" type="text" id="answer" autocomplete="off";>
+	<input autofocus="" class="form-control" style="text-align: center;" type="tel" id="answer" autocomplete="off";>
 	<br/>
 	<br/>
 </div>

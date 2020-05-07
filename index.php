@@ -37,7 +37,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"></a>
+      <a class="navbar-brand js-scroll" href="#page-top">JG.</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -111,19 +111,19 @@
                     <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>CSS3</span> <span class="pull-right">25%</span>
+                  <span>CSS</span> <span class="pull-right">25%</span>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>PHP</span> <span class="pull-right">40%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                   <span>JAVASCRIPT</span> <span class="pull-right">50%</span>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>PHP</span> <span class="pull-right">40%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                 </div>
@@ -170,29 +170,6 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">PC Service</h2>
-              <p class="s-description text-center">
-                <ul>
-                  <li>New PC Setup</li>
-                  <ul>
-                    <li>Remove bloatware</li>
-                    <li>Create accounts</li>
-                  </ul>
-                  <li>Hardware and software installations</li>
-                  <li>Diagnostics and repair</li>
-                  <li>Virus removals</li>
-                  <li>Data backups</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
               <span class="ico-circle"><i class="ion-code-working"></i></span>
             </div>
             <div class="service-content">
@@ -234,6 +211,29 @@
             </div>
           </div>
         </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">PC Service</h2>
+              <p class="s-description text-center">
+                <ul>
+                  <li>New PC Setup</li>
+                  <ul>
+                    <li>Remove bloatware</li>
+                    <li>Create accounts</li>
+                  </ul>
+                  <li>Hardware and software installations</li>
+                  <li>Diagnostics and repair</li>
+                  <li>Virus removals</li>
+                  <li>Data backups</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>      
       </div>
     </div>
   </section>
@@ -284,7 +284,7 @@
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
-      <div class="row">
+      <div class="row" >
         <div class="col-sm-12">
           <div class="contact-mf">
             <div id="contact" class="box-shadow-full">
@@ -295,7 +295,7 @@
                   <div>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="title-box-2 pt-4 pt-md-0">
                     <h5 class="title-left">
                       Get in Touch
@@ -313,7 +313,7 @@
                   </div>
                   <div class="socials">
                     <ul>
-                      <li><a href="https://www.facebook.com/jgriff1289"><span class="ico-circle" target="_blank"><i class="ion-social-facebook" title="Facebook"></i></span></a></li>
+                       <li><a href="https://www.facebook.com/jgriff1289" target="_blank"><span class="ico-circle"><i class="ion-social-facebook" title="Facebook"></i></span></a>
                       <li><a href="https://www.linkedin.com/in/john-griffin-358b7172/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin" title="LinkedIn"></i></span></a>
                       <li><a href="https://github.com/jgriffin407" target="_blank"><span class="ico-circle"><i class="ion-social-github" title="GitHub"></i></span></a>
                       </li>
