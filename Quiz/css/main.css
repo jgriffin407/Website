@@ -7,18 +7,18 @@ body {
     width: auto;
     height: auto;
     margin: 0 auto;
-    background-color: #d2d3d7;
+    background-color: #e2e3e6;
     padding: 10px 50px 50px 50px;
     border: 2px solid #cbcbcb;
     
 }
  
 .grid h1 {
-    font-family: "sans-serif";
-    background-color: #053006;
+    font-family: "Spectral SC";
+    background: rgba(55, 178, 58, 0.6);
     font-size: 60px;
     text-align: center;
-    color: #ffffff;
+    color: #4e4d4d;
     padding: 2px 0px;
     
 }
@@ -31,6 +31,7 @@ body {
  
 .grid #question {
     font-family: "monospace";
+    text-align: center;
     font-size: 30px;
     color: #131417;
 }
@@ -40,18 +41,19 @@ body {
 }
  
 #btn0, #btn1, #btn2, #btn3 {
-    background-color: #0d2d98;
+    background-color: #448cad;
     width: 190px;
     font-size: 20px;
     color: #fff;
     border: 1px solid #1D3C6A;
+    border-radius: 4px;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
 }
  
 #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
     cursor: pointer;
-    background-color: #01BBFF;
+    background-color: #0da8ef;
 }
  
 #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
@@ -75,4 +77,7 @@ body {
     font-family: "sans-serif";
     text-align: center;
     padding-top: 200px;
+}
+.gamelink:hover {
+color: #5c8a6d;
 }

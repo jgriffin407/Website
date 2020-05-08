@@ -111,9 +111,9 @@
                     <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>CSS</span> <span class="pull-right">25%</span>
+                  <span>CSS</span> <span class="pull-right">50%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                   <span>JAVASCRIPT</span> <span class="pull-right">50%</span>
@@ -121,9 +121,9 @@
                     <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>PHP</span> <span class="pull-right">40%</span>
+                  <span>PHP</span> <span class="pull-right">20%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                 </div>
@@ -254,20 +254,25 @@
           </div>
         </div>
       </div>
+      <!--Portfolio box#1 starts here-->
       <div class="row">
         <div class="col-md-4">
           <div class="work-box">
+            <a href="Flashcard/addition.php">
               <div class="work-img">
-                <a href="Flashcard/addition.php">
-                <img src="img/flashcard.png" alt="mathflashcard">
-              </a>
+                <img src="img/flashcard.png" alt="mathcard" class="img-fluid">
               </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Math Flashcard</h2>
                     <div class="w-more">
-                      <span class= "w-date">May 4, 2020</span>
+                    <span class="w-date">May 4, 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
                     </div>
                   </div>
                 </div>
@@ -275,7 +280,131 @@
             </a>
           </div>
         </div>
+        <!--Portfolio box# 1 ends here-->
+        <!--Portfolio box#2 starts here-->
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="Quiz/index.php">
+              <div class="work-img">
+                <img src="img/trivia.jpg" alt="trivia" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Trivia Game</h2>
+                    <div class="w-more">
+                      <span class="w-date">May 8, 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
+        <!--Portfolio box#2 ends here-->
+        <!--This section is hidden until content is added
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="">
+              <div class="work-img">
+                <img src="" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">""</h2>
+                    <div class="w-more">
+                      <span class="w-date">""</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="">
+              <div class="work-img">
+                <img src="" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">""</h2>
+                    <div class="w-more">
+                      <span class="w-date">""</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="">
+              <div class="work-img">
+                <img src="" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">""</h2>
+                    <div class="w-more">
+                      <span class="w-date">""</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="">
+              <div class="work-img">
+                <img src="" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">""</h2>
+                    <div class="w-more">
+                      <span class="w-date">""</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      -->
       </div>
     </div>
   </section>
