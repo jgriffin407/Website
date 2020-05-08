@@ -29,12 +29,12 @@
             <hr style="margin-bottom: 20px">
     <ul>
         <h3>Movies</h3>
-        <li><a class="gamelink" href="movies.html" target="_blank">Movies</a></li><br/>
+        <li><a class="gamelink" href="movies.php" target="_blank">Movies</a></li><br/>
         <h3>Television</h3>
-        <li><a class="gamelink" href="simpsons.html" target="_blank">The Simpsons</a></li><br/>
+        <li><a class="gamelink" href="simpsons.php" target="_blank">The Simpsons</a></li><br/>
             
         <h3>Sports</h3>
-            <li><a class="gamelink" href="sports.html" target="_blank">Sports</a></li><br/>
+            <li><a class="gamelink" href="sports.php" target="_blank">Sports</a></li><br/>
         </ul>
         </div>
     <div class="footer">
