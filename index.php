@@ -284,7 +284,7 @@
         <!--Portfolio box#2 starts here-->
         <div class="col-md-4">
           <div class="work-box">
-            <a href="Quiz/index.php" target="_blank">
+            <a href="Trivia/index.php" target="_blank">
               <div class="work-img">
                 <img src="img/trivia.jpg" alt="trivia" class="img-fluid">
               </div>
@@ -293,7 +293,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Trivia Game</h2>
                     <div class="w-more">
-                      <span class="w-date">May 8, 2020</span>
+                      <span class="w-date">May 14, 2020</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
