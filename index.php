@@ -284,7 +284,7 @@
         <!--Portfolio box#2 starts here-->
         <div class="col-md-4">
           <div class="work-box">
-            <a href="Trivia/index.php" target="_blank">
+            <a href="Trivia/main.php" target="_blank">
               <div class="work-img">
                 <img src="img/trivia.jpg" alt="trivia" class="img-fluid">
               </div>
