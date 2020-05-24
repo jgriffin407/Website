@@ -418,7 +418,6 @@
           <div class="contact-mf">
             <div id="contact" class="box-shadow-full">
               <div class="row">
-                <!--Commented out until I can get working 
                 <div class="col-md-6">
                   <div class="title-box-2">
                     <h5 class="title-left">
@@ -426,7 +425,7 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="mailto:john@johngriffin.dev" method="post" enctype="text/plain" role="form" class="contactForm">
+                      <form action="contactform.php" method="POST" enctype="text/plain" role="form" class="contactForm">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
@@ -455,13 +454,12 @@
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rounded">Send Message</button>
+                          <button type="submit" name="submit" class="button button-a button-big button-rounded">Send Message</button>
                         </div>
                       </div>
                     </form>
                   </div>
                 </div>
-                -->
                 <div class="col-md-6">
                   <div class="title-box-2 pt-4 pt-md-0">
                     <h5 class="title-left">
