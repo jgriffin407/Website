@@ -418,6 +418,7 @@
           <div class="contact-mf">
             <div id="contact" class="box-shadow-full">
               <div class="row">
+                <!--Commented out until I can get working 
                 <div class="col-md-6">
                   <div class="title-box-2">
                     <h5 class="title-left">
@@ -460,6 +461,7 @@
                     </form>
                   </div>
                 </div>
+                -->
                 <div class="col-md-6">
                   <div class="title-box-2 pt-4 pt-md-0">
                     <h5 class="title-left">
