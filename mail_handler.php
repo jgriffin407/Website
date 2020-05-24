@@ -9,7 +9,11 @@ if (isset ($_POST ['submit'])) {
     $headers = "From: ".$mailFrom;
     $txt = "You have received an email from " .$name.".\n\n".$message;
 
-    mail ($mailTO, $subject, $txt, $headers);
-    header("Location: index.php?mailsend");
-}
+    if (mail ($mailTO, $subject, $txt, $headers)) {
+      echo "<h1>Thank you ".$name. " ". "Your message was sent successfully. I will respond as soon as I can</h1>";
+    }
+    else {
+      echo "Something went wrong. Please check your submission and try again.";
+    }
+  }
 ?>
