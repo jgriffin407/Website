@@ -1,3 +1,18 @@
+<?php
+if (isset ($_POST ['submit'])) {
+    $name = $_POST['name'];
+    $mailFrom = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    $mailTO = "john@johngriffin.dev";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have received an email from " .$name.".\n\n".$message;
+
+    mail ($mailTO, $subject, $txt, $headers);
+    header("Location: index.php?mailsend");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -425,7 +440,7 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="contactform.php" method="POST" enctype="text/plain" role="form" class="contactForm">
+                      <form action="index.php" method="POST" enctype="text/plain" role="form" class="contactForm">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
