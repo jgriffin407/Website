@@ -436,7 +436,7 @@
                     </p>
                     <ul class="list-ico">
                       <li><span class="ion-email"></span>
-                        <a href="mailto:jgriffin407@gmail.com">jgriffin407@gmail.com</a>
+                        <a href="mailto:john@johngriffin.dev"></a>
                       </li>
                     </ul>
                   </div>
