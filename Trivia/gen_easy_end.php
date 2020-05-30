@@ -36,6 +36,6 @@
             <p>&copy; Copyright 2020 John Griffin - All Rights Reserved</p>
           </div>
     </div>
-    <script src ="gen_easy_end.js"></script>
+    <script src ="js/gen_easy_end.js"></script>
 </body>
 </html>
