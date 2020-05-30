@@ -303,19 +303,19 @@
             </div>
           </div>
           <!--Portfolio box#2 ends here-->
-          <!--This section is hidden until more content is added
+          <!--Portfolio box#3 begins here-->
           <div class="col-md-4">
             <div class="work-box">
-              <a href="">
+              <a href="hangman/index.php">
                 <div class="work-img">
-                  <img src="" alt="" class="img-fluid">
+                  <img src="assets/img/gallows.png" alt="gallows" class="img-fluid">
                 </div>
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title"></h2>
+                      <h2 class="w-title">Hangman</h2>
                       <div class="w-more">
-                        <span class="w-date"></span>
+                        <span class="w-date">May 29, 2020</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -328,6 +328,8 @@
               </a>
             </div>
           </div>
+          <!--Portfolio box#3 ends here-->
+          <!--This section is hidden until more content is added
           <div class="col-md-4">
             <div class="work-box">
               <a href="">
