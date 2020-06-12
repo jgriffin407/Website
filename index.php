@@ -244,7 +244,7 @@
                 Portfolio
               </h3>
               <p class="subtitle-a">
-                <em>Click an image below if you'd like to see some of my work.</em>
+                <em>Click an image below if you'd like to see some of my work (opens in new tab).</em>
               </p>
               <div class="line-mf"></div>
             </div>
@@ -280,7 +280,7 @@
           <!--Portfolio box#2 begins here-->
           <div class="col-md-4">
             <div class="work-box">
-              <a href="Trivia/main.php">
+              <a href="Trivia/main.php" target="_blank">
                 <div class="work-img">
                   <img src="assets/img/trivia.jpg" alt="triviablocks" class="img-fluid">
                 </div>
@@ -306,7 +306,7 @@
           <!--Portfolio box#3 begins here-->
           <div class="col-md-4">
             <div class="work-box">
-              <a href="hangman/index.php">
+              <a href="hangman/index.php" target="_blank">
                 <div class="work-img">
                   <img src="assets/img/gallows.png" alt="gallows" class="img-fluid">
                 </div>
@@ -329,19 +329,19 @@
             </div>
           </div>
           <!--Portfolio box#3 ends here-->
-          <!--This section is hidden until more content is added
+          <!--Portfolio box#4 starts here-->
           <div class="col-md-4">
             <div class="work-box">
-              <a href="">
+              <a href="spacehero/main.php" target="_blank">
                 <div class="work-img">
-                  <img src="" alt="" class="img-fluid">
+                  <img src="assets/img/spacehero.jpg" alt="astronaut" class="img-fluid">
                 </div>
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title"></h2>
+                      <h2 class="w-title">Space Hero</h2>
                       <div class="w-more">
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-date">June 12, 2020</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -354,6 +354,9 @@
               </a>
             </div>
           </div>
+          <!--Portfolio box#4 ends here-->
+          <!--Commented out to hide
+          !!!!!Portfolio box#5 starts here!!!!
           <div class="col-md-4">
             <div class="work-box">
               <a href="">
@@ -378,6 +381,8 @@
               </a>
             </div>
           </div>
+          !!!!!Portfolio box#5 ends here!!!!!
+          !!!!!Portfolio box#6 starts here!!!!
           <div class="col-md-4">
             <div class="work-box">
               <a href="">

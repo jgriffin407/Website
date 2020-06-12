@@ -1,0 +1,80 @@
+/* Main Menu Styles */
+#background h1 {
+    color: red;
+    font-size: 50pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#background, .button  {
+    border-radius: 12px;
+    width: 250px;
+    background: red;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#controls {
+    font-size: 14px;
+}
+
+/* Game Styles */
+#hero {
+    background: #ff0000;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#background {
+    background: #000000;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+}
+
+
+#laser {
+    background: green;
+    width: 2px;
+    height: 50px;
+    position: absolute;
+}
+.enemy {
+    background: blue;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+#score {
+    color: white;
+    font-size: 18pt;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#gameover {
+    color: red;
+    font-size: 20pt;
+    position: absolute;
+    left: 160px;
+    top: 200px;
+    visibility: hidden;
+}
+#playagain {
+    background-color: black;
+    color: red;
+    font-size: 20pt;
+    position: absolute;
+    left: 160px;
+    top: 400px;
+    visibility: hidden;
+}
