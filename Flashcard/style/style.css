@@ -49,3 +49,7 @@ h1 {
 	text-align: center;
 	background-color: #f4f6f6;
 }
+.form-control {
+	width: 25%;
+	margin: auto;
+}

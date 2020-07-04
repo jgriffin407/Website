@@ -45,7 +45,7 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.html">Home</a>
+            <a class="nav-link js-scroll active" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#about">About</a>
@@ -99,7 +99,7 @@
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>John Griffin</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span><a href="mailto:john@johngriffin.dev"></a></span></p>
+                        <p><span class="title-s">Email: </span> <span><a href="mailto:john@johngriffin.dev">john@johngriffin.dev</a></span></p>
                       </div>
                     </div>
                   </div>
@@ -111,15 +111,19 @@
                     </div>
                     <span>CSS3</span> <span class="pull-right">50%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">50%</span>
-                    <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>JAVASCRIPT</span> <span class="pull-right">60%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>PHP</span> <span class="pull-right">20%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>GIT</span> <span class ="pull-right">40%</span>
+                    <div class ="progress">
+                      <div class = "progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -131,13 +135,13 @@
                       </h5>
                     </div>
                     <p class="lead">
-                      I'm a self-taught full-stack developer. This page is under construction as I continually add more content.
+                      As a kid, I was a computer nerd. Every morning I would go into the computer lab at school and turn on all 32 computers to make sure they were ready for the classes that day. I even won an award at my 6th grade graduation for doing that!
                     </p>
                     <p class="lead">
-                      <!--Add some content here-->
+                      I went to college with very little idea of what I wanted to do with my life. I thought about pursuing criminal justice, but didn't think I was cut out for it. I changed my major a couple of times before I landed on IT as a career. 
                     </p>
                     <p class="lead">
-                      <!--Add some more content here-->
+                      Now more than 10 years later I've worked in technology sales, tech support, and most recently taught myself web development. I'm still learning but I'm proud of the work I've created so far. You can view some of it below.
                     </p>
                   </div>
                 </div>
@@ -445,7 +449,7 @@
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Subject must contain at least 2 characters" />
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:3" data-msg="Subject must contain at least 3 characters" />
                               <div class="validate"></div>
                             </div>
                           </div>
@@ -461,7 +465,7 @@
                             <div class="sent-message">Thanks for your message! I will be in touch soon.</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" class="button button-a button-big button-rounded">Send Message</button>
                           </div>
                         </div>
                       </form>
