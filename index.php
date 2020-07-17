@@ -485,7 +485,7 @@
                     <div class="socials">
                       <ul>
                         <li><a href="https://github.com/jgriffin407" target="_blank"><span class="ico-circle"><i class="ion-social-github" title="GitHub"></i></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/john-griffin-358b7172/"><span class="ico-circle"><i class="ion-social-linkedin" title="LinkedIn"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/jgriffin407"><span class="ico-circle"><i class="ion-social-linkedin" title="LinkedIn"></i></span></a></li>
                       </ul>
                     </div>
                   </div>
