@@ -72,7 +72,7 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="intro-title mb-4">John Griffin</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Full-Stack Web Developer,PC Repair Technician</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle"><span class="text-slider-items">Full-Stack Web Developer</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -100,11 +100,12 @@
                         <p><span class="title-s">Name: </span> <span>John Griffin</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
                         <p><span class="title-s">Email: </span> <span><a href="mailto:john@johngriffin.dev">john@johngriffin.dev</a></span></p>
+                        <p><span class="title-s">Resume (PDF): </span><span><a href="resume\John_Griffin_Resume.pdf" download="resume\John_Griffin_Resume.pdf">Click to Download</a></span></p>
                       </div>
                     </div>
                   </div>
                   <div class="skill-mf">
-                    <p class="title-s">Experience</p>
+                    <p class="title-s">Skills</p>
                     <span>HTML5</span> <span class="pull-right">85%</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
@@ -141,7 +142,7 @@
                       I went to college with very little idea of what I wanted to do with my life. I thought about pursuing criminal justice, but didn't think I was cut out for it. I changed my major a couple of times before I landed on IT as a career. 
                     </p>
                     <p class="lead">
-                      Now more than 10 years later I've worked in technology sales, tech support, and most recently taught myself web development. I'm still learning but I'm proud of the work I've created so far. You can view some of it below.
+                      Now more than 10 years later I've worked in technology sales, tech support, and most recently taught myself full-stack web development. I'm still learning but I'm proud of the work I've created so far. You can view some of it below.
                     </p>
                   </div>
                 </div>
@@ -167,7 +168,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="ion-code-working"></i></span>
@@ -193,7 +194,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
@@ -207,29 +208,6 @@
                   <li>iOS</li>
                   <li>Android</li>
                 </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-monitor"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">PC Service</h2>
-                <p class="s-description text-center">
-                  <ul>
-                    <li>New PC Setup</li>
-                    <ul>
-                      <li>Remove bloatware</li>
-                      <li>Create accounts</li>
-                    </ul>
-                    <li>Hardware and software installations</li>
-                    <li>Diagnostics and repair</li>
-                    <li>Virus removals</li>
-                    <li>Data backups</li>
-                  </ul>
                 </p>
               </div>
             </div>
@@ -426,6 +404,7 @@
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
                 <div class="row">
+                  <!--Contact form not currently functional. Will update in future.
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
@@ -471,6 +450,7 @@
                       </form>
                     </div>
                   </div>
+                  -->
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
