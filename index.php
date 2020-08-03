@@ -100,7 +100,7 @@
                         <p><span class="title-s">Name: </span> <span>John Griffin</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
                         <p><span class="title-s">Email: </span> <span><a href="mailto:john@johngriffin.dev">john@johngriffin.dev</a></span></p>
-                        <p><span class="title-s">Resume (PDF): </span><span><a href="resume\John_Griffin_Resume.pdf" download>Click to Download</a></span></p>
+                        <p><span class="title-s">Resume (PDF): </span><span><a href="resume\John_Griffin_Resume.pdf">Click to View</a></span></p>
                       </div>
                     </div>
                   </div>
