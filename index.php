@@ -129,7 +129,7 @@
                     <div class ="progress">
                       <div class = "progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <a href="resume/John_Griffin_Resume.pdf" target="_blank" class="btn btn-primary btn-primary">Download Resume (PDF) <span class="fas fa-download"></span></a>
+                    <a href="resume/John_Griffin_Resume.pdf" download="JohnGriffinResume.pdf" class="btn btn-primary btn-primary">Download Resume (PDF) <span class="fas fa-download"></span></a>
                   </div>
                 </div>
                 <div class="col-md-6">
