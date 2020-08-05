@@ -461,7 +461,7 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Check out my Github and LinkedIn pages below. You can also send me a message via the form on the left.
+                        Check out my Github and LinkedIn pages below.
                       </p>
                     </div>
                     <div class="socials">
