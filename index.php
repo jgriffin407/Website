@@ -23,6 +23,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!--Font Awesome Glyphicons-->
+  <script src="https://kit.fontawesome.com/341da5cafc.js" crossorigin="anonymous"></script>
   <!-- =======================================================
   * Template Name: DevFolio - v2.1.1
   * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -36,7 +38,9 @@
   <!-- ======= Header/ Navbar ======= -->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">JG.</a>
+      <a class="navbar-brand js-scroll" href="#page-top">
+      <img src = "assets/img/g4049.png">
+      </a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -65,8 +69,8 @@
   </nav>
 
   <!-- ======= Intro Section ======= -->
-  <div id="home" class="intro route bg-image" style="background-color: #2c2828";)>
-    <div class="overlay-itro"></div>
+  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/bouldering.jpg">
+    <div class="overlay-intro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
@@ -100,9 +104,6 @@
                         <p><span class="title-s">Name: </span> <span>John Griffin</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
                         <p><span class="title-s">Email: </span> <span><a href="mailto:john@johngriffin.dev">john@johngriffin.dev</a></span></p>
-                        <!--Resume section -- NOT WORKING
-                        <p><span class="title-s">Resume (PDF): </span><span><a href="resume/John_Griffin_Resume.php">Click to View</a></span></p>
-                        -->
                       </div>
                     </div>
                   </div>
@@ -128,6 +129,7 @@
                     <div class ="progress">
                       <div class = "progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                    <a href="resume/John_Griffin_Resume.pdf" target="_blank" class="btn btn-primary btn-primary">Download Resume (PDF) <span class="fas fa-download"></span></a>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -145,6 +147,9 @@
                     </p>
                     <p class="lead">
                       Now more than 10 years later I've worked in technology sales, tech support, and most recently taught myself full-stack web development. I'm still learning but I'm proud of the work I've created so far. You can view some of it below.
+                    </p>
+                    <p class ="lead">
+                      Outside of work I enjoy snowboarding, playing guitar, the outdoors, and rooting for my beloved Red Sox and Patriots!
                     </p>
                   </div>
                 </div>
@@ -406,7 +411,6 @@
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
                 <div class="row">
-                  <!--Contact form not currently functional. Will update in future.
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
@@ -452,7 +456,6 @@
                       </form>
                     </div>
                   </div>
-                  -->
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
@@ -461,7 +464,7 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Check out my Github and LinkedIn pages below.
+                        Check out my Github and LinkedIn pages below. You can also send me a message using the form to the left.
                       </p>
                     </div>
                     <div class="socials">
