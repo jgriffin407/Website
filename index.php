@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>John Griffin | Full Stack Web Developer</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="" name="John Griffin is a self taught full stack web developer located in Western Massachusetts. This site contains information about John, as well as his portfolio.">
+  <meta content="" name="griffin, web development, web developer, web programmer, western mass, javascript, javascript web developer, front end developer, full stack, website coder, ">
 
   <!-- Favicons -->
   <link href="img/griffin-32x32.png" rel="icon">
