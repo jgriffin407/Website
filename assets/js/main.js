@@ -135,3 +135,6 @@
   });
 
 })(jQuery);
+function onSubmit(token) {
+  document.getElementById("downloadResume").submit();
+}
