@@ -131,9 +131,14 @@
                     <div class ="progress">
                       <div class = "progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                    <form action="?" method="POST">
+                     <div class="g-recaptcha" data-sitekey="6LeWkMEZAAAAAPeFafdKSEHjnK54zCgD6iUSiDdw"></div>
+                      <br/>
+                      <input type="submit" value="Submit">
+                     </form>
+                    <!--
                     <form id ="downloadResume" action="resume/John_Griffin_Resume.pdf" download="JohnGriffinResume.pdf" method="POST">
                     <button class ="g-recaptcha" data-sitekey ="6LeWkMEZAAAAAPeFafdKSEHjnK54zCgD6iUSiDdw" data-callback="onSubmit">Download Resume (PDF)</button>
-                    <!--
                     <a href="resume/John_Griffin_Resume.pdf" download="JohnGriffinResume.pdf" id="resumeButton" class="btn btn-primary btn-primary g-recaptcha" data-sitekey="6LeWkMEZAAAAAPeFafdKSEHjnK54zCgD6iUSiDdw" data-callback='onSubmit'>Download Resume (PDF) <span class="fas fa-download"></span></a>
                     -->
                   </div>
