@@ -131,10 +131,10 @@
                     <div class ="progress">
                       <div class = "progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <form action="?" method="POST">
+                    <form action="resume/John_Griffin_Resume.pdf" method="POST">
                      <div class="g-recaptcha" data-sitekey="6LeWkMEZAAAAAPeFafdKSEHjnK54zCgD6iUSiDdw"></div>
                       <br/>
-                      <input type="submit" value="Submit">
+                      <input type="submit" value="Download Resume">
                      </form>
                     <!--
                     <form id ="downloadResume" action="resume/John_Griffin_Resume.pdf" download="JohnGriffinResume.pdf" method="POST">
