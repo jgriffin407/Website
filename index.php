@@ -25,8 +25,6 @@
 
   <!--Font Awesome Glyphicons-->
   <script src="https://kit.fontawesome.com/341da5cafc.js" crossorigin="anonymous"></script>
-  <!--reCaptcha-->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <!-- =======================================================
   * Template Name: DevFolio - v2.1.1
   * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -131,16 +129,6 @@
                     <div class ="progress">
                       <div class = "progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <form action="resume/John_Griffin_Resume.pdf" method="POST">
-                     <div class="g-recaptcha" data-sitekey="6LeWkMEZAAAAAPeFafdKSEHjnK54zCgD6iUSiDdw"></div>
-                      <br/>
-                      <input type="submit" value="Download Resume">
-                     </form>
-                    <!--
-                    <form id ="downloadResume" action="resume/John_Griffin_Resume.pdf" download="JohnGriffinResume.pdf" method="POST">
-                    <button class ="g-recaptcha" data-sitekey ="6LeWkMEZAAAAAPeFafdKSEHjnK54zCgD6iUSiDdw" data-callback="onSubmit">Download Resume (PDF)</button>
-                    <a href="resume/John_Griffin_Resume.pdf" download="JohnGriffinResume.pdf" id="resumeButton" class="btn btn-primary btn-primary g-recaptcha" data-sitekey="6LeWkMEZAAAAAPeFafdKSEHjnK54zCgD6iUSiDdw" data-callback='onSubmit'>Download Resume (PDF) <span class="fas fa-download"></span></a>
-                    -->
                   </div>
                 </div>
                 <div class="col-md-6">
