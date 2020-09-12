@@ -113,9 +113,13 @@
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS3</span> <span class="pull-right">50%</span>
+                    <span>CSS3</span> <span class="pull-right">60%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>BOOTSTRAP</span> <span class ="pull-right">50%</span>
+                    <div class ="progress">
+                      <div class = "progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>JAVASCRIPT</span> <span class="pull-right">60%</span>
                     <div class="progress">
@@ -142,7 +146,7 @@
                       As a kid, I was a computer nerd. Every morning I would go into the computer lab at school and turn on all 32 computers to make sure they were ready for the classes that day. I even won an award at my 6th grade graduation for doing that!
                     </p>
                     <p class="lead">
-                      I went to college with very little idea of what I wanted to do with my life. I thought about pursuing criminal justice, but didn't think I was cut out for it. I changed my major a couple of times before I landed on IT as a career. 
+                      I went to college with very little idea of what I wanted to do with my life. I thought about pursuing criminal justice, but didn't think I was cut out for it. I changed my major a couple of times before I landed on IT as a career.
                     </p>
                     <p class="lead">
                       Now more than 10 years later I've worked in technology sales, tech support, and most recently taught myself full-stack web development. I'm still learning but I'm proud of the work I've created so far. You can view some of it below.
@@ -343,20 +347,19 @@
             </div>
           </div>
           <!--Portfolio box#4 ends here-->
-          <!--Commented out to hide
-          !!!!!Portfolio box#5 starts here!!!!
+          <!--Portfolio box#5 starts here-->
           <div class="col-md-4">
             <div class="work-box">
-              <a href="">
+              <a href="TinDog/index.php">
                 <div class="work-img">
-                  <img src="" alt="" class="img-fluid">
+                  <img src="assets/img/winking-dog.jpeg" alt="winking-dog" class="img-fluid">
                 </div>
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title"></h2>
+                      <h2 class="w-title">Bootstrap Landing Page (TinDog)</h2>
                       <div class="w-more">
-                        <span class="w-date"></span>
+                        <span class="w-date">September 12, 2020</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -369,7 +372,8 @@
               </a>
             </div>
           </div>
-          !!!!!Portfolio box#5 ends here!!!!!
+          <!--Portfolio box#5 ends here-->
+          <!--
           !!!!!Portfolio box#6 starts here!!!!
           <div class="col-md-4">
             <div class="work-box">
@@ -410,6 +414,7 @@
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
                 <div class="row">
+                  <!--Contact Form (Does not work at this time)
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
@@ -455,6 +460,7 @@
                       </form>
                     </div>
                   </div>
+                -->
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
@@ -463,13 +469,14 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Check out my Github and LinkedIn pages below. You can also send me a message using the contact form.
+                        Check out my Github and LinkedIn pages below or click the envelope to send me an email.
                       </p>
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href="https://github.com/jgriffin407" target="_blank"><span class="ico-circle"><i class="ion-social-github" title="GitHub"></i></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/jgriffin407"><span class="ico-circle"><i class="ion-social-linkedin" title="LinkedIn"></i></span></a></li>
+                        <li><a href="https://github.com/jgriffin407" target="_blank"><span class="ico-circle"><i class="fab fa-github" title="GitHub"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/jgriffin407" target="_blank"><span class="ico-circle"><i class="fab fa-linkedin-in" title="LinkedIn"></i></span></a></li>
+                        <li><a href="mailto:jgriffin407@gmail.com"><span class="ico-circle"><i class="fas fa-envelope"></i></span></a></li>
                       </ul>
                     </div>
                   </div>
@@ -492,7 +499,7 @@
         <div class="col-sm-12">
           <div class="copyright-box">
             <p class="copyright">&copy; Copyright 2020 <strong>John Griffin</strong>. All Rights Reserved</p>
-            
+
           </div>
         </div>
       </div>
