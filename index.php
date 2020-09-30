@@ -103,7 +103,6 @@
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>John Griffin</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span><a href="mailto:jgriffin407@gmail.com">jgriffin407@gmail.com</a></span></p>
                       </div>
                     </div>
                   </div>
@@ -142,7 +141,7 @@
                       As a kid, I was a computer nerd. Every morning I would go into the computer lab at school and turn on all 32 computers to make sure they were ready for the classes that day. I even won an award at my 6th grade graduation for doing that!
                     </p>
                     <p class="lead">
-                      I went to college with very little idea of what I wanted to do with my life. I thought about pursuing criminal justice, but didn't think I was cut out for it. I changed my major a couple of times before I landed on IT as a career. 
+                      I went to college with very little idea of what I wanted to do with my life. I thought about pursuing criminal justice, but didn't think I was cut out for it. I changed my major a couple of times before I landed on IT as a career.
                     </p>
                     <p class="lead">
                       Now more than 10 years later I've worked in technology sales, tech support, and most recently taught myself full-stack web development. I'm still learning but I'm proud of the work I've created so far. You can view some of it below.
@@ -492,7 +491,7 @@
         <div class="col-sm-12">
           <div class="copyright-box">
             <p class="copyright">&copy; Copyright 2020 <strong>John Griffin</strong>. All Rights Reserved</p>
-            
+
           </div>
         </div>
       </div>
