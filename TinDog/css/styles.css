@@ -13,11 +13,6 @@ p {
   color: #8f8f8f;
 }
 
-.alert-warning {
-  background-color: #f9f106;
-  margin-bottom: 0;
-}
-
 /* Headings */
 
 .big-heading {
@@ -48,6 +43,7 @@ p {
 .white-section {
     background-color: #fff;
 }
+
 
 /* Navigation Bar */
 

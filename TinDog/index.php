@@ -15,15 +15,15 @@
 </head>
 
 <body>
-  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-    <strong><u>NOTE</u></strong> This website is for demonstration purposes only. None of the links work at this time.
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
+
   <section class = "colored-section" id="title">
     <div class="container-fluid">
-
+      <div id="alert-banner" class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>NOTE: </strong> This page is for demonstration only. None of the links work at this time.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">tindog</a>
@@ -128,7 +128,7 @@
   <!-- Press -->
 
   <section class = "colored-section" id="press">
-    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="press-logo" src="images/mashable.png" alt="mashable-logo">

@@ -21,7 +21,7 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
 
   <!--Font Awesome Glyphicons-->
   <script src="https://kit.fontawesome.com/341da5cafc.js" crossorigin="anonymous"></script>
@@ -39,7 +39,9 @@
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">
+        <!--Removing for now
       <img src = "assets/img/g4049.png">
+    -->
       </a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -69,7 +71,7 @@
   </nav>
 
   <!-- ======= Intro Section ======= -->
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/bouldering.jpg">
+  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/boston.jpg">
     <div class="overlay-intro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
@@ -96,14 +98,13 @@
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
-                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                        <img src="assets/img/me.png" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>John Griffin</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span><a href="mailto:jgriffin407@gmail.com">jgriffin407@gmail.com</a></span></p>
                       </div>
                     </div>
                   </div>
@@ -113,13 +114,9 @@
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS3</span> <span class="pull-right">60%</span>
+                    <span>CSS3</span> <span class="pull-right">50%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>BOOTSTRAP</span> <span class ="pull-right">50%</span>
-                    <div class ="progress">
-                      <div class = "progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>JAVASCRIPT</span> <span class="pull-right">60%</span>
                     <div class="progress">
@@ -181,7 +178,7 @@
           <div class="col">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-code-working"></i></span>
+                  <span class = "ico-circle"><i class="ion-code-working"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Web Development</h2>
@@ -190,7 +187,7 @@
                     <li>Front End Development</li>
                     <ul>
                       <li>HTML5</li>
-                      <li>CSS</li>
+                      <li>CSS3</li>
                       <li>JavaScript</li>
                     </ul>
                     <li>Back End Development</li>
@@ -207,14 +204,14 @@
           <div class="col">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+                <span class = "ico-circle"><i class="ion-android-phone-portrait"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Responsive Design</h2>
                 <p class="s-description text-center">
                   Creating responsive webpages that are viewable on:
                 <ul>
-                  <li>Desktop Environments</li>
+                  <li>Desktops</li>
                   <li>iOS</li>
                   <li>Android</li>
                 </ul>
@@ -347,19 +344,19 @@
             </div>
           </div>
           <!--Portfolio box#4 ends here-->
-          <!--Portfolio box#5 starts here-->
+          <!--Portfolio box#5 begins here-->
           <div class="col-md-4">
             <div class="work-box">
-              <a href="TinDog/index.php">
+              <a href="TinDog/index.php" target="_blank">
                 <div class="work-img">
-                  <img src="assets/img/winking-dog.jpeg" alt="winking-dog" class="img-fluid">
+                  <img src="assets/img/winkingdog.jpg" alt="winking-dog" class="img-fluid">
                 </div>
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Bootstrap Landing Page (TinDog)</h2>
+                      <h2 class="w-title">TinDog - Bootstrap Landing Page</h2>
                       <div class="w-more">
-                        <span class="w-date">September 12, 2020</span>
+                        <span class="w-date">October 23, 2020</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -372,7 +369,7 @@
               </a>
             </div>
           </div>
-          <!--Portfolio box#5 ends here-->
+          <!--!!!!Portfolio box#5 ends here-->
           <!--
           !!!!!Portfolio box#6 starts here!!!!
           <div class="col-md-4">
@@ -414,7 +411,7 @@
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
                 <div class="row">
-                  <!--Contact Form (Does not work at this time)
+                  <!--Commented out due to non-functionality
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
@@ -474,10 +471,10 @@
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href="https://github.com/jgriffin407" target="_blank"><span class="ico-circle"><i class="fab fa-github" title="GitHub"></i></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/jgriffin407" target="_blank"><span class="ico-circle"><i class="fab fa-linkedin-in" title="LinkedIn"></i></span></a></li>
-                        <li><a href="mailto:jgriffin407@gmail.com"><span class="ico-circle"><i class="fas fa-envelope"></i></span></a></li>
-                      </ul>
+                        <li><a href="https://github.com/jgriffin407" target="_blank"><span class = "ico-circle"><i class="fab fa-github" title="GitHub"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/jgriffin407/" target="_blank"><span class = "ico-circle"><i class="fab fa-linkedin" title="LinkedIn"></i></span></a></li>
+                        <li><a href="mailto:jgriffin407@gmail.com"><span class = "ico-circle"><i class="fas fa-envelope"></span></i></a></li>
+                        </ul>
                     </div>
                   </div>
                 </div>
